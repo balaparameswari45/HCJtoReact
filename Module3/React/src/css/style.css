@@ -1,0 +1,52 @@
+.center {
+    text-align: center;
+}
+
+.custom-title1   {
+            
+    box-sizing: border-box solid !important;
+    float: right;
+    background-color: maroon !important;
+    padding-top: -10px !important;
+
+ }
+ .custom-title2   {
+
+    background-color: rgb(231, 175, 135) !important;
+    border: black  !important;
+    box-sizing: border-box !important;
+    float: right;
+
+ }
+ .custom-title3   {
+
+    background-color: teal !important;
+    border: black  !important;    
+    box-sizing: border-box !important;
+    float: right;
+
+
+ }
+
+ .custom-body   {    
+    background-color: rgb(181, 218, 223) !important;
+    border: black solid  !important; 
+    box-sizing: content-box !important;
+
+ }
+
+ .custom-text {
+     padding-top: 30px;
+ }
+
+ .pull-right {
+   direction: rtl !important ;
+   float: right !important;
+ }
+
+ /* @media (min-width: 768px) {
+  .navdrop{
+
+  }
+
+ } */

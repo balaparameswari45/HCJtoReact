@@ -1,0 +1,24 @@
+{
+  "name": "hcjtoreact",
+  "version": "1.0.0",
+  "description": "Converting javascript  to React",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bala",
+  "license": "ISC",
+  "dependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "bootstrap": "^4.6.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-react-refresh": "^2.4.0",
+    "snowpack": "^3.0.13"
+  }
+}

@@ -1,0 +1,155 @@
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border-color: black;
+	border-width: 2px;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -10px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.container > .jumbotron {
+	background-color: white;
+  margin-bottom: -30px;
+  
+}
+
+
+.row div {
+
+background-color: rgb(214, 229, 238);
+margin: 10px;
+border:1px;
+}
+
+#main-content .container {
+	width:100%;
+	height: 1000px;
+  
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  border: 1px;
+  
+  }
+#nav-list a:hover {
+  background: gray;
+ }
+
+ #nav-list a span {
+  font-size: 1.8em;
+}
+
+
+hr {
+  margin: 0px;
+  border-color: black;
+}
+  
+
+/********** Large devices only **********/
+@media (min-width: 1800px)
+{
+  /* .container .jumbotron {
+    height: 675px;
+  } */
+	#tiles div {	
+	position: relative;
+}
+
+}
+
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px)
+
+{
+  /* .container .jumbotron {
+    height: 558px;
+  } */
+
+	#tiles div {	
+	position: relative;
+  }
+
+
+  #tiles .row {
+    margin-right: -20px;  
+    padding-right:40px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+  /* .container .jumbotron {
+    height: 432px;
+  } */
+	#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+      }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+  #tiles .row {
+    margin-right: -20px;  
+    padding-right:40px;
+  }
+}
+
+/********** Extra Small devices only **********/
+@media  (max-width: 768px)
+{
+
+  /* .container .jumbotron {
+    height: 432px;
+  } */
+	#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+      }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+  #tiles .row {
+    margin-right: -20px;  
+    padding-right:40px;
+  }
+}

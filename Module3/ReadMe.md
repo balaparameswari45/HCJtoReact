@@ -1,0 +1,2 @@
+HCJ project - is a solution for Module3 assignment in  HTML, CSS, and Javascript for Web Developers course by Johns Hopkins University
+React project - is a reactjs based solution that simulates the HCJ project
